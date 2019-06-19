@@ -9,7 +9,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # configures connection to database
-mainConnection = psycopg2.connect(user="walterbenson",
+mainConnection = psycopg2.connect(user="bradleyhennen",
                                        host="localhost",
                                        port="5432",
                                        database="python_hotel")
